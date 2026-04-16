@@ -5,8 +5,6 @@ int main() {
     int other = 77;
 
     int* const p = &val;
-
-    *prt = y;
     
     printf("%d\n", *p);
     // 7을 출력하고 싶다고?
